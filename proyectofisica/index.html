@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="all">
+        <header>
+          <h1 class="prin">Proyecto Electromagnetismo</h1>
+          <h3 class="pre">Dilan rojas</h3>
+          <h3 class="pre">Brayan Acevedo</h3>
+        </header>
+    </div>
+
+        <h1>Capacitancia</h1>
+        <div class="indice">
+            <h3>Indice</h3>
+            <ol>
+                <li><a href="#1">CAPACITORES Y CAPACITANCIA</a></li><br>
+                <li><a href="#2">Unidades de capacitancia</a> </li><br>
+                <li> <a href="#3">factores que afectan o aumentan la capacitancia</a>   </li><br>
+                <li> <a href="#4">Formula de la capacitancia</a> </li><br>
+                <li> <a href="#5">Capacitancia en serie y paralelo</a> </li><br>
+
+            </ol>
+    
+    
+        </div>
+    
+    
+    <div id="1">
+        <h2 > CAPACITORES Y CAPACITANCIA </h2>
+
+        <p>  Como puedes observar la capacitancia esta relacionada estrechamente con un capacitor, no obstante, esta propiedad puede estar presente en muchos otros lugares y componente, es por esto, que siempre debemos tener cuidado con el efecto de capacitancia al momento de diseñar ciertos circuitos.<br>
+        <br> Un capacitor o también conocido como condensador son componentes que almacenan energía, y lo hacen a través de dos placas de material conductor separadas por un material dieléctrico.<br>
+        <br> Esta configuración de placas y dieléctrico, permite a los condensadores almacenar energía en forma de carga eléctrica y por lo tanto esta presente la capacitancia, el tipo de material dieléctrico y la distancia entre las placas determinan el valor de la capacitancia presente en el capacitor.
+        </p>
+
+    </div>
+    
+
+    <div id="2">
+        <h2>Unidades de capacitancia</h2>
+        <p>¿Para qué sirve la capacitancia? esta pregunta seguramente ya la puedes responder después de la definición y datos que te he dado, sin embargo, para que quede claro es importante comprender que:<br>
+                <ul>
+                        <li><b> La capacitancia la podemos expresar como la relación entre la carga eléctrica que posee un conductor y la diferencia de potencial que esta presente entre dos conductores.</b></li>
+                </ul>
+            <p> 
+                La unidad de la capacitancia la medimos en faradios, donde un <span style="color: red"> faradio = Coulomb/Volt </span>según el Sistema Internacional de Unidades y la podemos representar por la letra «F», esto en honor al físico inglés Michael Faraday. No obstante, el faradio es una unidad bastante grande para efectos prácticos, ya que, un faradio indicaría que tenemos una gran capacitancia.
+                Dicho lo anterior, cuando estés diseñando algún proyecto encontrarás capacitores con fracciones de capacitancia, la cual ronda entre los microFaradios (uF) a picoFaradios (pF), o quizá te topes con los llamados supercapacitores quienes son capaces de almacenar enormes cantidades de carga eléctrica en rangos de miles de faradios, aunque te soy honesto, solo los encontrarás en aplicaciones muy especificas.
+            </p>
+         </p>
+    </div>
+    
+    <div id="3">
+        <h2> factores que afectan o aumentan la capacitancia</h2>
+
+        <p>Existen tres factores que principalmente aumentan la capacitancia, por ejemplo:</p>
+        <ul>
+            <li>Si las placas están mas cerca entre si la capacitancia aumentara y por lo contrario si se alejan las capacitancia disminuirá.</li>
+            <li>Placas mas grandes aumentan el valor de la capacitancia.</li>
+            <li>El material dieléctrico es un facto determinante y directamente defina la capacitancia.</li>
+        </ul>
+    </div><br>
+    
+
+    <div id="4">
+        <h2>Formula de la capacitancia</h2>
+        
+            <h3><b>1. Formula de la capacitancia en un conductor</b></h3>
+                 <img src="https://cdn.ewebik.com/electronica/formula_de_la_capacitancia_7e7f28afe6.jpg"  >
+   
+    <p><b> Donde:</b></p>
+    <ul>
+        <li>C es la capacitancia en Coulomb/Volt</li>
+        <li>Q es la carga eléctrica de un conductos en Coulomb</li>
+        <li>V es el potencial eléctrico medido en volts</li>
+    </ul> 
+           <h3><b>2. formula de la capacitancia en un capacitor</b></h3> 
+           <p>En un condensador la capacitancia se representa en un ecuación diferencial y esto se hace derivando la ecuación que vimos anteriormente de un conductor</p>
+           <img src="https://cdn.ewebik.com/electronica/ecuacion_diferencial_de_la_capacitancia_7836511b86.png">
+           <p>Donde <b>C</b> se representa como</p> 
+           <img src="https://cdn.ewebik.com/electronica/Capacitancia_en_un_capacitor_53764b5acd.png">
+            <p> Donde cada valor significa</p>
+
+            <ul>
+                <li>A es el área de las placas en metros cuadrados</li>
+                <li>ε es la permitividad</li>
+                <li>d es la distancia entre las placas en metros</li>
+            </ul>
+
+            <h3><b>3. Formula de la capacitancia en una esfera</b></h3>
+            <img src="https://cdn.ewebik.com/electronica/formula_de_la_capacitancia_en_una_esfera_3589ec96d1.jpg">
+            <p>Donde </p>
+
+            <ul>
+                <li>C es la capacitancia</li>
+                <li>εo = 8.85 x 10 -12 C2/ N.m2</li>
+                <li>r es el radio de la esfera en metros (m)</li>
+            </ul>
+            <p>Usualmente esta formula va ligada a lo que se conoce como capacidad mutua y auto capacidad:</p>
+            <ul>
+                <li>La capacitancia mutua, es la forma en que se abrevia el termino de capacidad entre dos conductores cercanos, por ejemplo, las placas de un capacitor.</li>
+                <li>La auto-capacitancia, es la cantidad de carga eléctrica que se debe agregar a un conductor aislado para aumentar su potencial.</li>
+            
+            </ul>
+
+
+
+        </div>
+
+        <div id="5">
+            <h2>Capacitancia en serie y paralelo</h2>
+                <ul>
+                    <li><h3>Formula de la capacitancia en serie</h3></li>
+                        <P>Como regla general, puedes comprobar que tu calculo es correcto si el valor resultante de la siguiente formula es menor que el valor de capacitancia mas pequeña del circuito.</P><br>
+                        <img  src="https://cdn.ewebik.com/electronica/formula_de_la_capacitancia_en_capacitores_en_serie_a011a42c61.jpg">
+                    <li><h3>Formula de la capacitancia en paralelo</h3></li>
+                       <p>A diferencia de la capacitancia en serie, cuando estamos en paralelo, el valor resultante es mayor que la capacitancia más grande en el circuito.</p>
+                        <p style="text-align: center;"><b>CT = C1 + C2 + C3 + C4 + … + Cn</b></p>
+            </ul>
+        </div>
+
+
+
+    </body>
+</html>
